@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "spawneresp",
+	"version": "${version}",
+	"name": "Spawner ESP",
+	"description": "Zeigt Mob Spawner durch Waende: farbige Kaesten, Tracer-Linien, Farbe je Spawner-Typ.",
+	"authors": ["you"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.example.spawneresp.SpawnerEspClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
